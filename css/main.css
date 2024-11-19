@@ -182,6 +182,10 @@ h6, .h6 {
   color: #cf1767;
 }
 
+.fa-brands:hover {
+  color: #cf1767;
+}
+
 p img {
   margin: 0;
 }
