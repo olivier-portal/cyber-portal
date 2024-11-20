@@ -2220,6 +2220,22 @@ input::-moz-focus-inner {
 }
 
 /* -------------------------------------------------------------------
+ * ## tools
+ * ------------------------------------------------------------------- */
+
+.s-tools {
+  background-color: #ffffff;
+}
+
+.s-tools .row {
+  max-width: 1140px;
+}
+
+.s-tools > [class*="tools-"]:last-child {
+  margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------
  * ## timeline
  * ------------------------------------------------------------------- */
 .about-experience__timeline {
@@ -2294,6 +2310,23 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/icon-education.svg);
 }
 
+.timeline__icon--design {
+  background-image: url(../images/icons/outils.png);
+  height: 4rem;
+  width: 4rem;
+}
+
+.timeline__icon--cyber {
+  background-image: url(../images/icons/la-cyber-securite.png);
+  height: 4rem;
+  width: 4rem;
+}
+
+.logos {
+  height: 6rem;
+  margin: 10px;
+}
+
 .timeline__block {
   position: relative;
   padding-left: 5.6rem;
@@ -2349,7 +2382,7 @@ input::-moz-focus-inner {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about
+ * about & tools
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .s-about {
@@ -2411,6 +2444,10 @@ input::-moz-focus-inner {
     max-width: 700px;
   }
 
+  .s-tools .row {
+    max-width: 700px;
+  }
+
   .about-me__buttons .column:first-child {
     padding-right: 16px;
   }
@@ -2451,6 +2488,10 @@ input::-moz-focus-inner {
   }
 
   .s-about .row {
+    max-width: 600px;
+  }
+
+  .s-tools .row {
     max-width: 600px;
   }
 
