@@ -138,14 +138,14 @@ h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   line-height: 1.222;
   letter-spacing: -.1rem;
 }
 
 @media screen and (max-width:600px) {
   h1, .h1 {
-    font-size: 3.3rem;
+    font-size: 2.3rem;
     letter-spacing: -.07rem;
   }
 
@@ -1984,7 +1984,7 @@ input::-moz-focus-inner {
 }
 
 .intro-text h1 {
-  font-size: 7.8rem;
+  font-size: 5.8rem;
   font-weight: 500;
   line-height: 1.179;
   color: #ffffff;
@@ -2031,7 +2031,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h1 {
-    font-size: 7.2rem;
+    font-size: 5.2rem;
   }
 
 }
@@ -2046,7 +2046,7 @@ input::-moz-focus-inner {
   }
 
   .intro-text h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
 }
@@ -2057,19 +2057,19 @@ input::-moz-focus-inner {
   }
 
   .intro-text h1 {
-    font-size: 6.2rem;
+    font-size: 4.2rem;
   }
 
 }
 
 @media screen and (max-width:900px) {
   .intro-text h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
-  .intro-text br {
+  /* .intro-text br {
     display: none;
-  }
+  } */
 
 }
 
@@ -2290,8 +2290,8 @@ input::-moz-focus-inner {
 
 .timeline__icon {
   display: block;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
