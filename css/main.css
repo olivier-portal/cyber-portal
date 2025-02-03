@@ -1934,7 +1934,7 @@ input::-moz-focus-inner {
 .intro-pic {
   background-color: #000000;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-image: url(../images/avatar-olivier.png);
   background-size: contain;
   position: absolute;
